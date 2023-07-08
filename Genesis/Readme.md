@@ -28,13 +28,13 @@ ignore being pushed to public repo.
 3. Proper module use is recommended. **Use tfvars file for different environments**
 4. We should be able to build out N number of EC2 instances, if required. **Yes**
 5. The build should export the following attributes:
-a. EC2 Instance ID -- Done
-b. EC2 Private IP -- Done 
-c. Load Balancer DNS name -- Done 
-d. RDS Endpoint -- Done
-e. RDS Database Name --Done
-f. RDS Port -- Done
-g. RDS Master username -- Done 
+          a. EC2 Instance ID -- Done
+          b. EC2 Private IP -- Done 
+          c. Load Balancer DNS name -- Done 
+          d. RDS Endpoint -- Done
+          e. RDS Database Name --Done
+          f. RDS Port -- Done
+          g. RDS Master username -- Done 
 
 
 **To run the project in your aws_account :**
