@@ -30,7 +30,7 @@ output "private_subnets_1"{
 
 output "private_subnets_2"{
   description = "Will be used by RDS Module"
-  value = aws_subnet.PrivateSubnet1.id
+  value = aws_subnet.PrivateSubnet2.id
 
 }
 

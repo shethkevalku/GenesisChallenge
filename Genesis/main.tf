@@ -29,12 +29,6 @@ provider "aws" {
 #   bucket_name = "genesis-keval-tf-state-backend-ci-cd"
 # }
 
-# module eks-infra {
-#   source = "./modules/eks"
-#     # EKS Input Vars
-#   subnet_id_1 = module.vpc-infra.public_subnets_1.id
-#   subnet_id_2 = module.vpc-infra.public_subnets_2.id
-# }
 
 module "vpc-infra" {
   source = "./modules/vpc"
